@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    font-size: 130;
+    line-height: 1.4;
+    padding-bottom: 1000px;
+}
+
+/* with writing-mode */
+h2 {
+    writing-mode: vertical-rl;
+    min-height: 4cm;
+    color: black;
+}
