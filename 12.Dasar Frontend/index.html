@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Latihan Frontend Fundamental</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        width: 33.33%;
+        height: 35px;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .green {
+        background-color: green;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .purple {
+        background-color: purple;
+    }
+
+    .grey {
+        background-color: grey;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        .content {
+            width: 100%;
+            height: 35px;
+        }
+    }
+
+    @media only screen and (min-width: 600px) {
+        .content {
+            width: 50%;
+            height: 35px;
+        }
+    }
+
+    @media only screen and (min-width: 960px) {
+        .content {
+            width: 33.33%;
+            height: 35px;
+        }
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="content red" id="red"></div>
+        <div class="content green" id="green"></div>
+        <div class="content blue" id="blue"></div>
+        <div class="content yellow" id="yellow"></div>
+        <div class="content purple" id="purple"></div>
+        <div class="content grey" id="grey"></div>
+    </div>
+
+</body>
+</html>
